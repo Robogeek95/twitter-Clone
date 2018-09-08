@@ -1,0 +1,416 @@
+
+body{
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  background: url(background.png);
+  margin:0;
+}
+
+  #DIV_1 {    
+    align-items: center;
+      height: 625px;
+    flex-wrap: wrap;;
+    margin-bottom: 0;
+    padding-top:0;
+    /*background:#1da1f2;*/
+    background-color: #09a7a1;
+    overflow: hidden;
+    position: relative;
+    flex: 1;
+     float: left;
+    justify-content: center;
+    font-family: sans-serif;
+    width: 674.5px;
+    border-right: 4px solid maroon;
+    opacity: 1.5;
+    /*padding-left: 0px;*/
+}/*#DIV_1*/
+
+.communication-item{
+  max-width: 440px;
+    color: #fff;
+    display: flex;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    margin: 48px auto;
+    position: relative;
+}
+
+.communication-icon1,.communication-icon{
+  font-size: 35px;
+  margin-right: 16px;
+  background: transparent;
+  vertical-align: baseline;
+  position: relative;
+  font-weight: bold;
+  line-height: 24px;
+}
+
+.communication-item1{
+ padding-top: 15px;
+  font-weight: bold;
+ 
+  font-size: 18px
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 24px;
+    text-align: center;
+    position: relative;
+}
+
+
+#form2{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 600px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: joker;
+}
+
+#div-loginUname, #div-loginPassword{
+  margin-right: 12px;
+  width: 210px;
+}
+
+.loginInput{
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-top: 12px;
+  margin: 0;
+  outline: 0;
+      background-color: #fff;
+    border: 1px solid #e6ecf0;
+    border-radius: 3px;
+  font-size: 14px;
+  line-height: 20px
+}
+
+.recoverPassword{
+  color: #aab8c2;
+  background: transparent;
+  text-decoration: none;
+}
+
+.edgebutton{
+  height: 100%;
+  padding: 12px;
+  width: auto;
+  box-sizing: border-box;
+  
+  cursor: pointer;
+  background-color: #fff;
+  border: 1px solid #1da1f2;
+  color: #1da1f2;
+  border-radius: 100px;
+  font-weight: bold;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  display: inline-block;
+}
+
+.edgebutton2, .edgebutton3{
+  margin-bottom: 16px;
+  padding: 6px 16px;
+  height: 100%;
+  padding: ;
+  width: auto;
+  box-sizing: border-box;
+  margin-top: 12px;
+  cursor: pointer;
+  background-color: #fff;
+  border: 1px solid #1da1f2;
+  color: #1da1f2;
+  border-radius: 100px;
+  font-weight: bold;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  display: inline-block;
+  width: 100%;
+}
+
+.edgebutton2{
+  background-color: #09a7a1;
+  color: white;
+}
+
+.edgebutton:hover,.edgebutton2:hover, .edgebutton3:hover{
+  background-color: maroon;
+  color: white
+}
+
+a{
+  text-decoration: none;
+  background:transparent;
+}
+#signupBlock{
+  display: block;
+  max-width: 350px;
+  margin-top: 130px;
+}
+
+#loginBlock{
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.edgebutton-primary{
+  background-color: #006dbf;
+  border: 1px solid #006dbf;
+  color: #fff;
+  text-decoration: none;
+  border: #1da1f2;
+  padding: 6px 16px;
+}
+h1,h2,h3,h4,h5,h6{
+  text-rendering: optimizeLegibility;
+}
+
+.content{
+  background-color: transparent;
+  display: block;
+  flex-direction: row-reverse;
+  flex-grow: 1;
+}
+#main{
+ max-width: 100%;
+  height: 625px;
+}
+
+
+.leftWrap{
+  display: block;
+  position: relative;
+  max-width: 40%;
+  width: 40%;
+  min-width: 40% ;
+  padding-top: 0;
+  margin-top: 0;
+  float: left;
+  margin-left: 13%;
+  margin-right: 1%;
+}
+
+.rightWrap {
+  display: block;
+  position: relative;
+  min-width:  30%;
+  width: 30%;
+  padding-top: 0;
+  margin-top: 0;
+  float: right;
+  margin-right: 15%;
+}
+
+.utilityBlock{
+  align-items: center;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  position: relative;
+}
+
+.loginForm{
+  left: 0;
+  position: absolute;
+  top: 20px;
+  width: 100%;
+  display: block;
+}
+
+#StreamsFooter {
+    border-top: 1px solid #e6ecf0;
+    padding: 11px 0;
+    position: fixed;
+    background-color: #fff;
+    bottom: -10%;
+    width: 100%;
+    z-index: 2;
+    position: static;
+    width: 100%;
+    bottom:0;
+    display: block;
+}
+
+.StreamsFooter-item {
+    display: inline-block;
+    padding: 0 9px 0 9px;
+    color: #aab8c2;
+    /*font-size: 12px;*/
+}
+
+
+.StreamsFooter-item a {
+    color: #aab8c2;
+    font-size: 12px;
+
+}
+li {
+    text-align: inherit;
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+a {
+    text-decoration: none;
+    background: transparent;
+}
+
+#streamsFooter-list{
+  background: #fff;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+
+ol, ul {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+}
+
+#dateSpan{
+  color:  maroon;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  align-content: center;
+  padding-left: 35px;
+  background: #09a7a1;
+}
+
+#communication-block{
+  padding-top: 130px;
+}
+
+
+/*The Twitter Bird SVG*/
+#svg_1 {
+    height: 626px;
+    width: 675px;
+    perspective-origin: 324px 263.375px;
+    transform-origin: 324px 263.375px;
+    font: normal normal 400 normal 16px / normal "Times New Roman";
+    overflow: hidden;
+    position: absolute;
+}/*#svg_1*/
+
+#svg_1:after {
+    font: normal normal 400 normal 16px / normal "Times New Roman";
+}/*#svg_1:after*/
+
+#svg_1:before {
+    font: normal normal 400 normal 16px / normal "Times New Roman";
+}/*#svg_1:before*/
+
+#title_2 {
+    display: inline;
+    transform-origin: 0px 0px;
+    font: normal normal 400 normal 16px / normal "Times New Roman";
+}/*#title_2*/
+
+#title_2:after {
+    font: normal normal 400 normal 16px / normal "Times New Roman";
+}/*#title_2:after*/
+
+#title_2:before {
+    font: normal normal 400 normal 16px / normal "Times New Roman";
+}/*#title_2:before*/
+
+#desc_3 {
+    transform-origin: 0px 0px;
+    font: normal normal 400 normal 16px / normal "Times New Roman";
+}/*#desc_3*/
+
+#desc_3:after {
+    font: normal normal 400 normal 16px / normal "Times New Roman";
+}/*#desc_3:after*/
+
+#desc_3:before {
+    font: normal normal 400 normal 16px / normal "Times New Roman";
+}/*#desc_3:before*/
+
+#defs_4 {
+    perspective-origin: 0px 0px;
+    transform-origin: 0px 0px;
+    font: normal normal 400 normal 16px / normal "Times New Roman";
+}/*#defs_4*/
+
+#defs_4:after {
+    font: normal normal 400 normal 16px / normal "Times New Roman";
+}/*#defs_4:after*/
+
+#defs_4:before {
+    font: normal normal 400 normal 16px / normal "Times New Roman";
+}/*#defs_4:before*/
+
+#g_5 {
+    perspective-origin: 0px 0px;
+    transform-origin: 0px 0px;
+    fill: none;
+    fill-rule: evenodd;
+    font: normal normal 400 normal 16px / normal "Times New Roman";
+}/*#g_5*/
+
+#g_5:after {
+    fill: none;
+    fill-rule: evenodd;
+    font: normal normal 400 normal 16px / normal "Times New Roman";
+}/*#g_5:after*/
+
+#g_5:before {
+    fill: none;
+    fill-rule: evenodd;
+    font: normal normal 400 normal 16px / normal "Times New Roman";
+}/*#g_5:before*/
+
+#g_6 {
+    perspective-origin: 0px 0px;
+    transform: matrix(1, 0, 0, 1, -286, -117);
+    transform-origin: 0px 0px;
+    fill: rgb(27, 149, 224);
+    font: normal normal 400 normal 16px / normal "Times New Roman";
+}/*#g_6*/
+
+#g_6:after {
+    fill: rgb(27, 149, 224);
+    font: normal normal 400 normal 16px / normal "Times New Roman";
+}/*#g_6:after*/
+
+#g_6:before {
+    fill: rgb(27, 149, 224);
+    font: normal normal 400 normal 16px / normal "Times New Roman";
+}/*#g_6:before*/
+
+#path_7 {
+    perspective-origin: 0px 0px;
+    transform-origin: 0px 0px;
+    fill: rgb(27, 149, 224);
+    d: path('M 1493.75 233.196 C 1449.32 252.923 1401.56 266.208 1351.44 272.196 C 1402.62 241.55 1441.92 192.988 1460.39 135.116 C 1412.53 163.498 1359.49 184.131 1303.03 195.252 C 1257.89 147.093 1193.43 117 1122.17 117 C 962.191 117 844.636 266.258 880.768 421.203 C 674.896 410.887 492.324 312.253 370.09 162.341 C 305.173 273.706 336.424 419.391 446.732 493.165 C 406.171 491.856 367.926 480.735 334.562 462.166 C 331.844 576.953 414.122 684.342 533.287 708.245 C 498.414 717.706 460.218 719.92 421.369 712.473 C 452.871 810.904 544.359 882.514 652.855 884.527 C 548.686 966.201 417.444 1002.69 286 987.186 C 395.654 1057.49 525.94 1098.5 665.838 1098.5 C 1125.89 1098.5 1385.81 709.956 1370.11 361.469 C 1418.52 326.495 1460.54 282.865 1493.75 233.196 Z');
+    font: normal normal 400 normal 16px / normal "Times New Roman";
+}/*#path_7*/
+
+#path_7:after {
+    fill: rgb(27, 149, 224);
+    font: normal normal 400 normal 16px / normal "Times New Roman";
+}/*#path_7:after*/
+
+#path_7:before {
+    fill: rgb(27, 149, 224);
+    font: normal normal 400 normal 16px / normal "Times New Roman";
+}/*#path_7:before*/
+
